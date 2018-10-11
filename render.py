@@ -110,7 +110,7 @@ def render(rotation_angle=0):
     for c in cams:
         context.scene.camera = c
         print("Render ", 'out.obj', context.scene.name, c.name)
-        context.scene.render.filepath = "output_rotate_{}".format(rotation_angle)
+        context.scene.render.filepath = "Apose_output_rotate_{}".format(rotation_angle)
         bpy.ops.render.render(write_still=True)
 
 
