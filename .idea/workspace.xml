@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78e41448-8eaa-410d-bba2-e40a72ff321b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/for_use/0070_c5s1_011076/0070_c5s1_011076_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0070_c5s1_011076/Apose_output_rotate_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0070_c5s1_011076/Apose_output_rotate_120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0070_c5s1_011076/Apose_output_rotate_240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0070_c5s1_011076/output_rotate_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0070_c5s1_011076/output_rotate_120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0070_c5s1_011076/output_rotate_240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0110_c5s1_035226_01/0110_c5s1_035226_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0110_c5s1_035226_01/Apose_output_rotate_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0110_c5s1_035226_01/Apose_output_rotate_120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0110_c5s1_035226_01/Apose_output_rotate_240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0150_c4s1_024451_01/0150_c4s1_024451_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0150_c4s1_024451_01/Apose_output_rotate_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0150_c4s1_024451_01/Apose_output_rotate_120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0150_c4s1_024451_01/Apose_output_rotate_240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0150_c4s1_024451_01/output_rotate_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0150_c4s1_024451_01/output_rotate_120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_use/0150_c4s1_024451_01/output_rotate_240.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/Apose_output_rotate_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/Apose_output_rotate_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/Apose_output_rotate_120.png" beforeDir="false" afterPath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/Apose_output_rotate_120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/Apose_output_rotate_240.png" beforeDir="false" afterPath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/Apose_output_rotate_240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_120.png" beforeDir="false" afterPath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_120.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_240.png" beforeDir="false" afterPath="$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_240.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/out.obj" beforeDir="false" afterPath="$PROJECT_DIR$/models/out.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/untitled.mtl" beforeDir="false" afterPath="$PROJECT_DIR$/models/untitled.mtl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/render.py" beforeDir="false" afterPath="$PROJECT_DIR$/render.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,23 +44,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="render.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/render.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Apose_output_rotate_0.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Apose_output_rotate_0.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="output.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output.png">
+      <file leaf-file-name="Apose_output_rotate_120.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apose_output_rotate_120.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="1494_c3s3_062103_06.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/1494_c3s3_062103_06.jpg">
+      <file leaf-file-name="Apose_output_rotate_240.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apose_output_rotate_240.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="1485_c1s6_047471_00.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/in/1485_c1s6_047471_00.jpg">
+      <file leaf-file-name="output_rotate_0.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/output_rotate_0.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -44,35 +81,23 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="output_rotate_240.png" pinned="false" current-in-tab="false">
+      <file leaf-file-name="output_rotate_240.png" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output_rotate_240.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="render.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/render.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1494_c3s3_062103_06.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/in/1494_c3s3_062103_06.jpg">
+      <file leaf-file-name="output_rotate_120.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/for_use/0070_c5s1_011076/output_rotate_120.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.sh">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="output_rotate_0.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/for_use/0070_c5s1_011076/output_rotate_0.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="output_rotate_0.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/output_rotate_0.png">
+      <file leaf-file-name="output_rotate_240.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/for_use/0070_c5s1_011076/output_rotate_240.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -96,8 +121,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/run.sh" />
         <option value="$PROJECT_DIR$/render.py" />
       </list>
     </option>
@@ -112,9 +137,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
     <option name="y" value="-6" />
-    <option name="width" value="1855" />
+    <option name="width" value="1920" />
     <option name="height" value="1086" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -123,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,7 +162,19 @@
             <path>
               <item name="BlenderRender" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlenderRender" type="462c0819:PsiDirectoryNode" />
+              <item name="for_use" type="462c0819:PsiDirectoryNode" />
+              <item name="0110_c5s1_035226_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlenderRender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlenderRender" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlenderRender" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlenderRender" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="in" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlenderRender" type="b2602c69:ProjectViewProjectNode" />
@@ -151,6 +186,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,18 +197,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/for_use/1414_c6s3_074192_00" />
-      <recent name="$PROJECT_DIR$/for_use/0112_c1s1_019001_00" />
-      <recent name="$PROJECT_DIR$/for_use/0067_c2s1_01776_01" />
-      <recent name="$PROJECT_DIR$/for_use/0028_c3s1_002001_02" />
-      <recent name="$PROJECT_DIR$/for_use/0022_c1s1_002851_01" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/out_uv_market1501" />
       <recent name="$PROJECT_DIR$/images/in" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/for_use/0002_c2s1_123041_01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/for_use/0110_c5s1_035226_01" />
+      <recent name="$PROJECT_DIR$/images/in" />
+      <recent name="$PROJECT_DIR$/for_use/0070_c5s1_011076" />
+      <recent name="$PROJECT_DIR$/for_use/0150_c4s1_024451_01" />
+      <recent name="$PROJECT_DIR$/for_use/0028_c3s1_002001_02" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -267,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539245227548</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="recover">
+      <created>1539775979419</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539775979419</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -277,22 +320,23 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32738718" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32948583" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32738718" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.33053514" />
-      <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20121615" />
+      <window_info anchor="right" id="Remote Host" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21448314" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="LuaJ" order="0" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="SciView" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
@@ -308,141 +352,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished render!!" />
     <MESSAGE value="A pose" />
-    <option name="LAST_COMMIT_MESSAGE" value="A pose" />
+    <MESSAGE value="recover" />
+    <option name="LAST_COMMIT_MESSAGE" value="recover" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0002_c2s1_123041_01/output_rotate_240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_rotate_240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/0028_c3s1_002001_02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0067_c2s1_01776_01/0067_c2s1_018776_01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0067_c2s1_01776_01/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0067_c2s1_01776_01/output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0112_c1s1_019001_00/0112_c1s1_019001_00.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0112_c1s1_019001_00/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0112_c1s1_019001_00/output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0067_c2s1_01776_01/0067_c2s1_018776_01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0067_c2s1_01776_01/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0067_c2s1_01776_01/output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0112_c1s1_019001_00/0112_c1s1_019001_00.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0112_c1s1_019001_00/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0112_c1s1_019001_00/output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0002_c2s1_123041_01/output_rotate_240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0002_c2s1_123041_01/0002_c2s1_123041_01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0002_c2s1_123041_01/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0002_c2s1_123041_01/output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0002_c3s1_000501_01/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0002_c3s1_000501_01/output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0002_c3s1_000501_01/output_rotate_240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/untitled.obj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apose_output_rotate_240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0002_c3s1_000501_01/0002_c3s1_000501_01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0022_c1s1_002851_01/0022_c1s1_002851_01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0022_c1s1_002851_01/Apose_output_rotate_240.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0022_c1s1_002851_01/output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0022_c1s1_002851_01/Apose_output_rotate_0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0022_c1s1_002851_01/Apose_output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apose_output_rotate_120.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/0028_c3s1_002001_02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/in/1414_c6s3_074192_00.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apose_output_rotate_0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/output.png">
@@ -451,30 +370,160 @@
     <entry file="file://$PROJECT_DIR$/images/in/1485_c1s6_047471_00.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/1414_c6s3_074192_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/1439_c2s3_049757_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/1448_c3s3_057278_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/1481_c2s3_054957_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/1485_c1s6_047471_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/1494_c3s3_062103_06.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/in/1494_c3s3_062103_06.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/output_rotate_240.png">
+    <entry file="file://$PROJECT_DIR$/for_use/0002_c2s1_123041_01/0002_c2s1_123041_01.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/output_rotate_120.png">
+    <entry file="file://$PROJECT_DIR$/for_use/0002_c2s1_123041_01/output_rotate_0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/output_rotate_0.png">
+    <entry file="file://$PROJECT_DIR$/images/in/1481_c2s3_054957_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/1448_c3s3_057278_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/1439_c2s3_049757_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0336_c3s1_077517_00.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0112_c5s1_019051_03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0030_c2s1_001876_02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0022_c1s1_002851_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0002_c3s1_000501_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0002_c2s1_123041_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/0002_c2s1_123041_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0028_c3s1_002001_02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/0028_c3s1_002001_02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/Apose_output_rotate_120.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/Apose_output_rotate_240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_120.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/output_rotate_240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0028_c3s1_002001_02/Apose_output_rotate_0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0067_c2s1_018776_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/0114_c2s3_071602_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/0067_c2s1_018776_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/0115_c1s1_021376_02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/out_uv_market1501/0150_c4s1_024451_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0150_c4s1_024451_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0115_c1s1_021376_02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0114_c2s3_071602_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0105_c5s1_026351_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/in/0070_c5s1_011076_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0070_c5s1_011076/output_rotate_120.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0070_c5s1_011076/output_rotate_0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_use/0070_c5s1_011076/output_rotate_240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apose_output_rotate_240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apose_output_rotate_120.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apose_output_rotate_0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/render.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+        <state relative-caret-position="280">
+          <caret line="117" column="41" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_rotate_0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_rotate_120.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output_rotate_240.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

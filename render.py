@@ -1,7 +1,8 @@
 import bpy
 import os
 from math import radians
-
+import argparse
+import sys
 def render(rotation_angle=0):
     context = bpy.context
 
@@ -10,7 +11,7 @@ def render(rotation_angle=0):
     # create a scene
     scene = bpy.data.scenes.new("Scene")
 
-    scene.render.resolution_x = 480
+    scene.render.resolution_x = 640
     scene.render.resolution_y = 960
 
     # bpy.data.scenes['Scene'].render.engine = 'CYCLES'
@@ -107,6 +108,10 @@ def render(rotation_angle=0):
     ob = context.scene.objects[0]
     ob.rotation_euler = (radians(180), radians(rotation_angle), 0)
 
+    print('----------------------')
+    print(bpy.data.materials.keys())
+    bpy.data.materials['lambert1'].use_shadeless = True
+
     for c in cams:
         context.scene.camera = c
         print("Render ", 'out.obj', context.scene.name, c.name)
@@ -115,6 +120,8 @@ def render(rotation_angle=0):
 
 
 if __name__ == '__main__':
-    render(0)
-    render(120)
-    render(240)
+    parser = argparse.ArgumentParser(description='Generate synth dataset images.')
+    parser.add_argument('--angle', type=int,
+                        help='rotation angle')
+    args = parser.parse_args(sys.argv[sys.argv.index("--") + 1:])
+    render(rotation_angle=args.angle)
