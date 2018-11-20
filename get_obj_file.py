@@ -76,7 +76,9 @@ def write_mtl(uv_path, out_path):
 
 
 if __name__ == '__main__':
-    path = '1001/UV'
+
+    root_path = sys.argv[1]
+    path = os.path.join(root_path, 'UV')
     for uv_path in tqdm(os.listdir(path)):
         uv_path = os.path.join(path, uv_path)
         out_path = uv_path.replace('UV', 'obj')[:-4]
