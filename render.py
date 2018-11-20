@@ -3,15 +3,15 @@ import os
 from math import radians
 import argparse
 import sys
-def render(rotation_angle=0):
-    context = bpy.context
 
-    models_path = "/home/wangjian02/Projects/BlenderRender/models/"
+
+def render(rotation_angle=0, model_path=None):
+    context = bpy.context
 
     # create a scene
     scene = bpy.data.scenes.new("Scene")
 
-    scene.render.resolution_x = 640
+    scene.render.resolution_x = 480
     scene.render.resolution_y = 960
 
     # bpy.data.scenes['Scene'].render.engine = 'CYCLES'
@@ -25,12 +25,16 @@ def render(rotation_angle=0):
     bg.inputs[0].default_value[:3] = (0.5, .1, 0.6)
     bg.inputs[1].default_value = 1.0
 
+    # rice color
+    # scene.world.horizon_color = (247 / 255., 238 / 255., 214 / 255.)
+
+    # scene.world.horizon_color = (0.5, 0.5, 0.5)
     scene.world.horizon_color = (1, 1, 1)
 
     camera_data = bpy.data.cameras.new("Camera")
 
     camera = bpy.data.objects.new("Camera", camera_data)
-    camera.location = (0, 0.16, 2.5)
+    camera.location = (0, 0.15, 2.1)
     camera.rotation_euler = ([radians(a) for a in (0.0, 0.0, 0.0)])
     # camera.rotation_euler = [0,  0,  0]
     scene.objects.link(camera)
@@ -43,7 +47,7 @@ def render(rotation_angle=0):
 
     # Link lamp object to the scene so it'll appear in this scene
     scene.objects.link(lamp_object)
-    bpy.data.lamps['Lamp1'].energy = 0.8
+    bpy.data.lamps['Lamp1'].energy = 0.5
     # Place lamp to a specified location
 
     lamp_object.rotation_euler = (radians(240), radians(120), radians(0))
@@ -63,7 +67,7 @@ def render(rotation_angle=0):
 
     # Link lamp object to the scene so it'll appear in this scene
     scene.objects.link(lamp_object)
-    bpy.data.lamps['Lamp2'].energy = 0.8
+    bpy.data.lamps['Lamp2'].energy = 0
     # Place lamp to a specified location
 
     lamp_object.rotation_euler = (radians(150), radians(30), radians(0))
@@ -86,8 +90,8 @@ def render(rotation_angle=0):
 
     # Place lamp to a specified location
 
-    lamp_object.rotation_euler = (radians(0), radians(-60), radians(180))
-    bpy.data.lamps['Lamp3'].energy = 0.8
+    lamp_object.rotation_euler = (radians(60), radians(-60), radians(180))
+    bpy.data.lamps['Lamp3'].energy = 0
 
     # And finally select it make active
     lamp_object.select = True
@@ -96,9 +100,7 @@ def render(rotation_angle=0):
     # do the same for lights etc
     scene.update()
 
-
-
-    path = os.path.join(models_path, 'out.obj')
+    path = os.path.join(model_path, 'out.obj')
     # make a new scene with cam and lights linked
     context.screen.scene = scene
     bpy.ops.scene.new(type='LINK_OBJECTS')
@@ -110,18 +112,24 @@ def render(rotation_angle=0):
 
     print('----------------------')
     print(bpy.data.materials.keys())
-    bpy.data.materials['lambert1'].use_shadeless = True
+    #bpy.data.materials['lambert1'].use_shadeless = False
+    # bpy.data.materials['lambert1'].diffuse_intensity = 0.8
+    #bpy.data.materials['lambert1'].specular_color = [0, 0, 0]
+    bpy.data.materials['lambert1'].translucency = 0
+    bpy.data.materials['lambert1'].specular_intensity = 0
+    bpy.data.materials['lambert1'].emit = 0.80
 
     for c in cams:
         context.scene.camera = c
         print("Render ", 'out.obj', context.scene.name, c.name)
-        context.scene.render.filepath = "output_rotate_{}".format(rotation_angle)
+        context.scene.render.filepath = "{}_rotate_{}".format(model_path.replace('obj', 'img'), rotation_angle)
         bpy.ops.render.render(write_still=True)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate synth dataset images.')
-    parser.add_argument('--angle', type=int,
+    parser.add_argument('--angle', type=int, default=0,
                         help='rotation angle')
+    parser.add_argument('--model_path', type=str, default='')
     args = parser.parse_args(sys.argv[sys.argv.index("--") + 1:])
-    render(rotation_angle=args.angle)
+    render(rotation_angle=args.angle, model_path=args.model_path)
