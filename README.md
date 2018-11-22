@@ -3,7 +3,7 @@ Render 3D Human with Blender
 
 #### Requirement
 
-- Python3
+- Python2.7
 - Blender2.78
 
 #### Install Blender
@@ -39,11 +39,18 @@ and put the UV map in ```xxxx/UV```
 
 #### Generate Rendering Object
 
+Install some necessary packages first:
 ```bash
-python get_obj_file.py xxxx
+pip install chumpy
+```
+Then run:
+```bash
+python2 get_obj_file.py xxxx
 ```
 
 #### Generate Rendered Images
+Modify the blender path in ```run_one_folder.sh```
+
 ```bash
 bash run_one_folder.sh xxxx
 ```

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-BLENDER_PATH=/home/wangjian02/Application/blender-2.78a-linux-glibc211-x86_64
+BLENDER_PATH=/home/wangjian/Applications/blender-2.78a-linux-glibc211-x86_64
 for model_dir in ${1}
 do
 echo $model_dir
