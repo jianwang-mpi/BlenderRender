@@ -37,9 +37,11 @@ mkdir obj
 ```
 and put the UV map in ```xxxx/UV```
 
+We have provided a directory called "example" for you.
+
 #### Generate Rendering Object
 
-Install some necessary packages first:
+Install chumpy first:
 ```bash
 pip install chumpy
 ```
@@ -49,15 +51,15 @@ python2 get_obj_file.py xxxx
 ```
 
 #### Generate Rendered Images
-Modify the blender path in ```run_one_folder.sh```
+Modify the blender path in ```run.sh```
 
 ```bash
-bash run_one_folder.sh xxxx
+bash run.sh xxxx
 ```
 
 You will see the rendered person in standing position in ```xxxx/image```.
 
 #### Change the Pose:
-The pose parameters are from ```./pose_standing.npy```, it is an array with 72 dimensions, open it with numpy and change it as you wish.
+The pose parameters are from ```./pose_standing.npy```, it is an array with 72 dimensions, open it in python with numpy and change it as you wish.
 
 You can also get the 72-dimension pose vector from HMR.

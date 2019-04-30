@@ -51,7 +51,7 @@ def main(out_path):
     render = Renderer(model_path='models/neutral.pkl')
     v = render.render(theta)
 
-    with open('untitled.obj', mode='r') as f:
+    with open('base_model.obj', mode='r') as f:
         lines = f.readlines()
         count = 0
         for i in range(len(lines)):
@@ -65,13 +65,13 @@ def main(out_path):
 
 
 def write_mtl(uv_path, out_path):
-    with open('untitled.mtl') as f:
+    with open('base_model.mtl') as f:
         lines = f.readlines()
         for i in range(len(lines)):
             if lines[i].startswith('map_Kd'):
                 lines[i] = 'map_Kd {}'.format(uv_path)
 
-    with open(os.path.join(out_path, 'untitled.mtl'), 'w') as f:
+    with open(os.path.join(out_path, 'base_model.mtl'), 'w') as f:
         f.writelines(lines)
 
 
