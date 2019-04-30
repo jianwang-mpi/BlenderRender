@@ -37,7 +37,7 @@ mkdir obj
 ```
 and put the UV map in ```xxxx/UV```
 
-We have provided a directory called "example" for you.
+**We have provided a directory called "example" for you.**
 
 #### Generate Rendering Object
 
